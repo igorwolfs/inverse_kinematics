@@ -8,6 +8,7 @@
 int main()
 {
     // Note: T_Z, R_Z, T_X, R_X
+    // Note for github
     Matrix robot_dh = Matrix(DOF, 4, 0);
     robot_dh(0, 0) = 67;
     robot_dh(0, 3) = PI_2;
